@@ -16,7 +16,7 @@ const corsOptions = {
     allowedHeaders: 'Content-Type, Authorization', // Allow specific headers
 };
 
-app.options("*", cors(corsOptions));  // Allow preflight for all routes
+app.use(cors(corsOptions));  // Allow preflight for all routes
 
 // Use middleware
 app.use(express.json());  // Only need this once
