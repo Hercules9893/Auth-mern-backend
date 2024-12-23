@@ -24,4 +24,4 @@ We are actively working to resolve this issue and appreciate your understanding.
 📂 Project Structure
 Backend: API endpoints for user operations (Node.js, Express.js, MongoDB).
 Frontend: React-based UI for user interactions.
-Hosting: Frontend deployed on Netlify and backend hosted on Render.
+Hosting: Frontend deployed on Netlify and backend hosted on Render
