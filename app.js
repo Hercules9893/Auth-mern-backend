@@ -14,6 +14,7 @@ const corsOptions = {
     origin: 'https://auth-mern002.netlify.app', // Replace with your frontend URL
     methods: 'GET,POST,PUT,DELETE', // Allow specific HTTP methods if needed
     allowedHeaders: 'Content-Type, Authorization', // Allow specific headers
+    credentials: true // If you need to include cookies in the requests
 };
 
 app.use(cors(corsOptions));  // Allow preflight for all routes
